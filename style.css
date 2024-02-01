@@ -1,0 +1,176 @@
+/* Page */
+
+body{
+    max-width: 80%;
+    margin: 24px auto;
+    font-family: 'Jost', sans-serif;
+    font-weight: 100;
+}
+
+header{
+    margin: 48px auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 48px auto;
+    width: 80%;
+    justify-content: center;
+}
+
+hr{
+    border: 2px solid #7e7e7e;
+    width: auto;
+}
+
+/* Navbar */
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    gap: 32px;
+}
+
+.top-item, .nav-item{
+    list-style-type: none;
+}
+
+.header-label{
+    font-size: 20px;
+}
+
+.header-button{
+    border: none;
+    background: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.header-button:hover{
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+
+#hero{
+    margin: 60px auto;
+}
+
+.label-box{
+    display: flex;
+    border: 4px solid #7e7e7e;
+    border-radius: 32px;
+    padding: 16px 4px;
+    justify-content: center;
+}
+
+.welcome-msg{
+    font-size: 24px;
+}
+
+.turtle{
+    margin: auto;
+    padding: 24px;
+    width: 200px;
+}
+
+.prompt-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    margin: auto;
+    padding: 0;
+}
+
+.prompt-item{
+    width: max-content;
+    list-style-type: none;
+}
+
+.turtle-prompt{
+    font-size: 20px;   
+}
+
+/* Achievements Section */
+
+h2{
+    font-size: 24px;
+    font-weight: 100;
+    margin: 16px auto;
+    text-decoration: underline;
+}
+
+.achievement-flex-box{
+    display: flex;
+    margin: 16px auto;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.achievement-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 4px solid #7e7e7e;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 4px;
+    width: 48%;
+    gap: 10%;
+}
+
+.achievement-label{
+    width: 64%;
+}
+
+.achievement-circle{
+    width: 60px;
+    height: 60px;
+    border: 4px solid #7e7e7e;
+    border-radius: 50%;
+}
+
+.achievement-heading{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.achievement-description{
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+}
+
+#footer-heading{
+    width: max-content;
+    font-size: 20px;
+}
+
+#footer-label{
+    width: max-content;
+    font-size: 16px;
+}
